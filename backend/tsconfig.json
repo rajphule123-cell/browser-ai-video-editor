@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "plugins": [],
+    "types": ["node", "express"]
+  },
+  "include": ["server.ts", "../src/lib/**/*.ts"],
+  "exclude": ["../node_modules"]
+}
